@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To----------Do----------List</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+    
+        }
+        .firstContainer{
+            width:350px;
+            height: 200px;
+            border: 5px solid black;
+            text-align: center;
+            position: relative;
+            top: 50px;
+            left: 40vw;
+            display: flex;
+            background-color: bisque;
+        
+        }
+        .secondContainer{
+            width:350px;
+            height: 200px;
+            border: 5px solid black;
+            text-align: center;
+            position: relative;
+            top: 70px;
+            left: 40vw;
+            background-color: bisque;
+            
+            
+        }
+        .addText{
+            width: 200px;
+            height:50px;
+            border: 2px solid black;
+            position: absolute;
+            top:50px;
+            left:50px;
+            transform: translate(-20%,50%);
+            background-color: tomato;
+            text-align: center;
+            color:black;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .submit{
+            width:100px;
+            height:53px;
+            border:2px solid black;
+            position: absolute;
+            top:50px;
+            left:200px;
+            transform: translate(40%,50%);
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: large;
+        }
+        .submit:hover{
+            background-color: black;
+            color: antiquewhite;
+            font-size: 25px;
+        }
+        .Delete{
+            width:100px;
+            height:53px;
+            border:2px solid black;
+            position: absolute;
+            top:50px;
+            left:200px;
+            transform: translate(40%,50%);
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: large;
+        }
+        .Delete:hover{
+            background-color: black;
+            color: antiquewhite;
+            font-size: 25px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- <form action="">
+        <label for="fullname" class="fullname"> Full Name </label>
+        <br>
+        <input type="text" name="name" id="name" placeholder="fullname">
+        <br>
+        <label for="age" class="age">Age</label>
+        <br>
+        <input type="number" name="number" id="number">
+        <br>
+        <br>
+        <br>
+        <input type="button" class = "submit" value="submit">
+    </form> -->
+    <div class="firstContainer">
+        
+        <input type="text" class="addText">
+        <input type="button" class = "submit" value="submit">
+    </div>
+    <div class="secondContainer">
+        <input type="button" class = "Delete" value="Delete">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
